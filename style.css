@@ -283,7 +283,7 @@ h1 {
 }
 .imagen12 {
     position: absolute;
-    top: 3960px;
+    top: 3560px;
     right: 80vh;
     width:350px ;
     height:auto;
@@ -339,6 +339,7 @@ h1 {
     z-index: -1; 
 
 }
+
 
 
 
