@@ -29,21 +29,3 @@ updateCounter();
 
 
 
-const btnNo = document.querySelector("#btnNo");
-
-btnNo.addEventListener("mouseover", function () {
-    // Calculamos posiciones aleatorias dentro de la ventana
-    const x = Math.random() * (window.innerWidth - btnNo.clientWidth);
-    const y = Math.random() * (window.innerHeight - btnNo.clientHeight);
-
-    // Aplicamos las nuevas coordenadas
-    btnNo.style.position = "absolute";
-    btnNo.style.left = x + "px";
-    btnNo.style.top = y + "px";
-});
-
-// Opcional: Un mensaje lindo cuando logre darle al "Sí"
-const btnSi = document.querySelector("#btnSi");
-btnSi.addEventListener("click", function() {
-    alert("iiiiii yo te quiero mas obviamente ❤️");
-});
