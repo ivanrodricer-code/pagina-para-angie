@@ -332,3 +332,42 @@ h1 {
 
 
 
+
+
+
+
+
+.pregunta-container {
+    text-align: center;
+    margin-top: 50px;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.botones {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+button {
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+#btnSi {
+    background-color: #ff4d6d;
+    color: white;
+}
+
+#btnNo {
+    background-color: #808080;
+    color: white;
+}
+
+
+
